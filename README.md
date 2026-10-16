@@ -1,5 +1,7 @@
 # saas-billing-starter
 
+[![ci](https://github.com/mcknx/saas-billing-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/mcknx/saas-billing-starter/actions/workflows/ci.yml)
+
 > **Demo project, not client work.** A small, tested starting point for a multi-tenant SaaS on Next.js + Postgres (Supabase-style) with Stripe subscriptions in **test mode**. All data is fictional; there are no real Stripe keys in this repo. The tests run fully offline: Postgres is [PGlite](https://pglite.dev) in memory, and Stripe webhooks are signed locally with Stripe's own test helper.
 
 ## What it does (30 seconds)
