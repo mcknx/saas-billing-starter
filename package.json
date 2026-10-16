@@ -1,0 +1,38 @@
+{
+  "name": "saas-billing-starter",
+  "version": "1.0.0",
+  "description": "Next.js multi-tenant SaaS starter: orgs, members and roles with Postgres RLS, plus signed, idempotent Stripe subscription webhooks.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "node --import tsx --test --test-reporter=spec test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "nextjs",
+    "stripe",
+    "supabase",
+    "postgres",
+    "rls",
+    "multi-tenant",
+    "saas"
+  ],
+  "author": "McKeen Asma",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^16.4.2",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "stripe": "^23.0.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
